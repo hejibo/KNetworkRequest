@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C303EF2165DCA4400DB0AB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C303EF1165DCA4400DB0AB9 /* UIKit.framework */; };
+		7C303EF4165DCA4400DB0AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C303EF3165DCA4400DB0AB9 /* Foundation.framework */; };
+		7C303EF6165DCA4400DB0AB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C303EF5165DCA4400DB0AB9 /* CoreGraphics.framework */; };
+		7C303EFC165DCA4400DB0AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C303EFA165DCA4400DB0AB9 /* InfoPlist.strings */; };
+		7C303EFE165DCA4400DB0AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C303EFD165DCA4400DB0AB9 /* main.m */; };
+		7C303F02165DCA4400DB0AB9 /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C303F01165DCA4400DB0AB9 /* KAppDelegate.m */; };
+		7C303F04165DCA4400DB0AB9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C303F03165DCA4400DB0AB9 /* Default.png */; };
+		7C303F06165DCA4400DB0AB9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C303F05165DCA4400DB0AB9 /* Default@2x.png */; };
+		7C303F08165DCA4400DB0AB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C303F07165DCA4400DB0AB9 /* Default-568h@2x.png */; };
+		7C303F2E165DD03300DB0AB9 /* KNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C303F2D165DD03300DB0AB9 /* KNetworkRequest.m */; };
+		7C303F34165DD03E00DB0AB9 /* KNetworkVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C303F30165DD03E00DB0AB9 /* KNetworkVariable.m */; };
+		7C303F35165DD03E00DB0AB9 /* KNetworkFileUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C303F33165DD03E00DB0AB9 /* KNetworkFileUpload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C303EED165DCA4400DB0AB9 /* KNetworkRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNetworkRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C303EF1165DCA4400DB0AB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C303EF3165DCA4400DB0AB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C303EF5165DCA4400DB0AB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C303EF9165DCA4400DB0AB9 /* KNetworkRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KNetworkRequest-Info.plist"; sourceTree = "<group>"; };
+		7C303EFB165DCA4400DB0AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C303EFD165DCA4400DB0AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C303EFF165DCA4400DB0AB9 /* KNetworkRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KNetworkRequest-Prefix.pch"; sourceTree = "<group>"; };
+		7C303F00165DCA4400DB0AB9 /* KAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegate.h; sourceTree = "<group>"; };
+		7C303F01165DCA4400DB0AB9 /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
+		7C303F03165DCA4400DB0AB9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7C303F05165DCA4400DB0AB9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7C303F07165DCA4400DB0AB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C303F2D165DD03300DB0AB9 /* KNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNetworkRequest.m; path = Classes/KNetworkRequest.m; sourceTree = SOURCE_ROOT; };
+		7C303F2F165DD03E00DB0AB9 /* KNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNetworkRequest.h; path = Classes/KNetworkRequest.h; sourceTree = SOURCE_ROOT; };
+		7C303F30165DD03E00DB0AB9 /* KNetworkVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNetworkVariable.m; path = Classes/KNetworkVariable.m; sourceTree = SOURCE_ROOT; };
+		7C303F31165DD03E00DB0AB9 /* KNetworkVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNetworkVariable.h; path = Classes/KNetworkVariable.h; sourceTree = SOURCE_ROOT; };
+		7C303F32165DD03E00DB0AB9 /* KNetworkFileUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNetworkFileUpload.h; path = Classes/KNetworkFileUpload.h; sourceTree = SOURCE_ROOT; };
+		7C303F33165DD03E00DB0AB9 /* KNetworkFileUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNetworkFileUpload.m; path = Classes/KNetworkFileUpload.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C303EEA165DCA4400DB0AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C303EF2165DCA4400DB0AB9 /* UIKit.framework in Frameworks */,
+				7C303EF4165DCA4400DB0AB9 /* Foundation.framework in Frameworks */,
+				7C303EF6165DCA4400DB0AB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C303EE2165DCA4400DB0AB9 = {
+			isa = PBXGroup;
+			children = (
+				7C303EF7165DCA4400DB0AB9 /* KNetworkRequest */,
+				7C303EF0165DCA4400DB0AB9 /* Frameworks */,
+				7C303EEE165DCA4400DB0AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C303EEE165DCA4400DB0AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C303EED165DCA4400DB0AB9 /* KNetworkRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C303EF0165DCA4400DB0AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C303EF1165DCA4400DB0AB9 /* UIKit.framework */,
+				7C303EF3165DCA4400DB0AB9 /* Foundation.framework */,
+				7C303EF5165DCA4400DB0AB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C303EF7165DCA4400DB0AB9 /* KNetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7C303F00165DCA4400DB0AB9 /* KAppDelegate.h */,
+				7C303F01165DCA4400DB0AB9 /* KAppDelegate.m */,
+				7C303EF8165DCA4400DB0AB9 /* Supporting Files */,
+			);
+			path = KNetworkRequest;
+			sourceTree = "<group>";
+		};
+		7C303EF8165DCA4400DB0AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C303F0E165DCAF000DB0AB9 /* Classes */,
+				7C303EF9165DCA4400DB0AB9 /* KNetworkRequest-Info.plist */,
+				7C303EFA165DCA4400DB0AB9 /* InfoPlist.strings */,
+				7C303EFD165DCA4400DB0AB9 /* main.m */,
+				7C303EFF165DCA4400DB0AB9 /* KNetworkRequest-Prefix.pch */,
+				7C303F03165DCA4400DB0AB9 /* Default.png */,
+				7C303F05165DCA4400DB0AB9 /* Default@2x.png */,
+				7C303F07165DCA4400DB0AB9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C303F0E165DCAF000DB0AB9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C303F2D165DD03300DB0AB9 /* KNetworkRequest.m */,
+				7C303F2F165DD03E00DB0AB9 /* KNetworkRequest.h */,
+				7C303F30165DD03E00DB0AB9 /* KNetworkVariable.m */,
+				7C303F31165DD03E00DB0AB9 /* KNetworkVariable.h */,
+				7C303F32165DD03E00DB0AB9 /* KNetworkFileUpload.h */,
+				7C303F33165DD03E00DB0AB9 /* KNetworkFileUpload.m */,
+			);
+			name = Classes;
+			path = ../../KNetworkRequest_/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C303EEC165DCA4400DB0AB9 /* KNetworkRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C303F0B165DCA4400DB0AB9 /* Build configuration list for PBXNativeTarget "KNetworkRequest" */;
+			buildPhases = (
+				7C303EE9165DCA4400DB0AB9 /* Sources */,
+				7C303EEA165DCA4400DB0AB9 /* Frameworks */,
+				7C303EEB165DCA4400DB0AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNetworkRequest;
+			productName = KNetworkRequest;
+			productReference = 7C303EED165DCA4400DB0AB9 /* KNetworkRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C303EE4165DCA4400DB0AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = K;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kyle Carson";
+			};
+			buildConfigurationList = 7C303EE7165DCA4400DB0AB9 /* Build configuration list for PBXProject "KNetworkRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C303EE2165DCA4400DB0AB9;
+			productRefGroup = 7C303EEE165DCA4400DB0AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C303EEC165DCA4400DB0AB9 /* KNetworkRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C303EEB165DCA4400DB0AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C303EFC165DCA4400DB0AB9 /* InfoPlist.strings in Resources */,
+				7C303F04165DCA4400DB0AB9 /* Default.png in Resources */,
+				7C303F06165DCA4400DB0AB9 /* Default@2x.png in Resources */,
+				7C303F08165DCA4400DB0AB9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C303EE9165DCA4400DB0AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C303EFE165DCA4400DB0AB9 /* main.m in Sources */,
+				7C303F02165DCA4400DB0AB9 /* KAppDelegate.m in Sources */,
+				7C303F2E165DD03300DB0AB9 /* KNetworkRequest.m in Sources */,
+				7C303F34165DD03E00DB0AB9 /* KNetworkVariable.m in Sources */,
+				7C303F35165DD03E00DB0AB9 /* KNetworkFileUpload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C303EFA165DCA4400DB0AB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C303EFB165DCA4400DB0AB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C303F09165DCA4400DB0AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C303F0A165DCA4400DB0AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C303F0C165DCA4400DB0AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNetworkRequest/KNetworkRequest-Prefix.pch";
+				INFOPLIST_FILE = "KNetworkRequest/KNetworkRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C303F0D165DCA4400DB0AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNetworkRequest/KNetworkRequest-Prefix.pch";
+				INFOPLIST_FILE = "KNetworkRequest/KNetworkRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C303EE7165DCA4400DB0AB9 /* Build configuration list for PBXProject "KNetworkRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C303F09165DCA4400DB0AB9 /* Debug */,
+				7C303F0A165DCA4400DB0AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C303F0B165DCA4400DB0AB9 /* Build configuration list for PBXNativeTarget "KNetworkRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C303F0C165DCA4400DB0AB9 /* Debug */,
+				7C303F0D165DCA4400DB0AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C303EE4165DCA4400DB0AB9 /* Project object */;
+}
