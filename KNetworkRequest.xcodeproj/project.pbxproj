@@ -112,8 +112,8 @@
 		7C303F0E165DCAF000DB0AB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7C303F2D165DD03300DB0AB9 /* KNetworkRequest.m */,
 				7C303F2F165DD03E00DB0AB9 /* KNetworkRequest.h */,
+				7C303F2D165DD03300DB0AB9 /* KNetworkRequest.m */,
 				7C303F30165DD03E00DB0AB9 /* KNetworkVariable.m */,
 				7C303F31165DD03E00DB0AB9 /* KNetworkVariable.h */,
 				7C303F32165DD03E00DB0AB9 /* KNetworkFileUpload.h */,
@@ -304,6 +304,7 @@
 				7C303F0D165DCA4400DB0AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
